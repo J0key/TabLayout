@@ -1,0 +1,10 @@
+<!-- res/drawable/textview_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+            <solid android:color="@android:color/transparent" /> <!-- Background color, set as transparent in this example -->
+            <stroke
+                android:width="2dp"
+                android:color="@color/stroke_color"
+            />
+    </item>
+</layer-list>
